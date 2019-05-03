@@ -91,7 +91,7 @@ h1 a {
     color: white;
 }
 
-h1 #channel-star {
+h1 #app-bar-star {
     /* #6 #liking #filled  */
     position:absolute;
     right: 16px;
@@ -152,6 +152,7 @@ li.selected {
 
     /* #5 #tab-bar #flexify the buttons*/
     display: flex;
+    align-items:space-around;
 }
 
 /* #5 #smileys #lazy: we can reuse most of the tab-bar buttons' styles for the chat-bar buttons */
@@ -175,6 +176,7 @@ li.selected {
 #tab-bar button img {
     display: block;
     margin: 0 auto 4px auto;
+    size:24px;
 }
 
 /* #5 CHAT BAR */
@@ -269,4 +271,19 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+#input-text{
+    border-style:none;
+    height:72px;
+    line-height:72px;
+    position:absolute;
+    width:80%;  
+}
+
+#send-button{
+    height:72px;
+    line-height:72px;
+    position:absolute;
+    width:10%;
 }
